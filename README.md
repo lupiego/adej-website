@@ -1,2 +1,2 @@
-# adej-website
-Site institucional para a ADEJ
+# Site Institucional ADEJ
+Site institucional criado para a ADEJ - Associação de Deficientes Físicos de Joinville.
