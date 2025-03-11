@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+$azul: #007BC2;
+$amarelo: #f4f051;
+
+:root {
+    --bulma-primary-h: 202deg;
+    --bulma-primary-l: 38%;
+    --bulma-link-h: 82deg;
+    --bulma-link-s: 77%;
+    --bulma-link-l: 29%;
+}
+
+
+
+/* CSS ANTES DE USAR O SASS: */
+
+html, body {
+    background-color: #f8f9fa;
+    color: #363636;
+    font-family: Public Sans, sans-serif;
+}
+
+
+strong {
+    color:#1b1b1b;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    padding: 2rem 1rem;
+    color: #363636;
+    text-align: center;
+}
+
+.footer a {
+    color: $azul;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: $amarelo;
+}
+
+#copyright {
+    color: #bcbcbc
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.navbar-brand svg{
+    width: 120px;
+    height: auto;
+}
+
+.navbar-item,
+.navbar-link {
+    color: #363636;
+}
+
+.navbar-item:hover {
+    color: $azul;
+    text-decoration: underline;
+    text-decoration-color: $amarelo;
+    a {
+        color: $azul;
+    }
+}
+
+
+#comoajudar:hover {
+    font-weight: 600;
+    color:#ffffff;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 3rem 1.5rem;
+}
+
+.button.is-primary {
+    background-color: #3273dc;
+    color: white;
+    border-radius: 5px;
+}
+
+.button.is-primary:hover {
+    background-color: #275bac;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

@@ -1,71 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+:root {
+  --bulma-primary-h: 202deg;
+  --bulma-primary-l: 38%;
+  --bulma-link-h: 82deg;
+  --bulma-link-s: 77%;
+  --bulma-link-l: 29%;
+}
 
+/* CSS ANTES DE USAR O SASS: */
 html, body {
-    background-color: #f8f9fa; /* Soft light gray */
-    color: #363636; /* Dark gray text for readability */
-    font-family: Public Sans, sans-serif;
-}
-
-a {
-    color: #3273dc; /* Bulma's primary blue */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
+  background-color: #f8f9fa;
+  color: #363636;
+  font-family: Public Sans, sans-serif;
 }
 
 strong {
-    color:#1b1b1b;
+  color: #1b1b1b;
 }
 
 .footer {
-    background-color: #ffffff;
-    border-top: 1px solid #ddd; /* Light separator */
-    padding: 2rem 1rem;
-    color: #363636;
-    text-align: center;
+  border-top: 1px solid #ddd;
+  padding: 2rem 1rem;
+  color: #363636;
+  text-align: center;
 }
 
 .footer a {
-    color: #3273dc;
+  color: #007BC2;
 }
 
 .footer a:hover {
-    color: #275bac;
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
+}
+
+#copyright {
+  color: #bcbcbc;
 }
 
 .navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-.navbar-brand svg{
-    width: 120px;
-    height: auto;
+.navbar-brand svg {
+  width: 120px;
+  height: auto;
 }
 
 .navbar-item,
 .navbar-link {
-    color: #363636;
+  color: #363636;
 }
 
 .navbar-item:hover {
-    background-color: #e9e9e9;
+  color: #007BC2;
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
+}
+.navbar-item:hover a {
+  color: #007BC2;
+}
 
+#comoajudar:hover {
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .section {
-    background-color: #ffffff;
-    padding: 3rem 1.5rem;
+  background-color: #ffffff;
+  padding: 3rem 1.5rem;
 }
 
 .button.is-primary {
-    background-color: #3273dc;
-    color: white;
-    border-radius: 5px;
+  background-color: #3273dc;
+  color: white;
+  border-radius: 5px;
 }
 
 .button.is-primary:hover {
-    background-color: #275bac;
+  background-color: #275bac;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}/*# sourceMappingURL=main.css.map */
