@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    background-color: #f8f9fa; /* Soft light gray */
+    color: #363636; /* Dark gray text for readability */
+    font-family: Public Sans, sans-serif;
+}
+
+a {
+    color: #3273dc; /* Bulma's primary blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+strong {
+    color:#1b1b1b;
+}
+
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd; /* Light separator */
+    padding: 2rem 1rem;
+    color: #363636;
+    text-align: center;
+}
+
+.footer a {
+    color: #3273dc;
+}
+
+.footer a:hover {
+    color: #275bac;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.navbar-brand svg{
+    width: 120px;
+    height: auto;
+}
+
+.navbar-item,
+.navbar-link {
+    color: #363636;
+}
+
+.navbar-item:hover {
+    background-color: #e9e9e9;
+
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 3rem 1.5rem;
+}
+
+.button.is-primary {
+    background-color: #3273dc;
+    color: white;
+    border-radius: 5px;
+}
+
+.button.is-primary:hover {
+    background-color: #275bac;
+}
