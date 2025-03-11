@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
-:root {
-  --bulma-primary-h: 202deg;
-  --bulma-primary-l: 38%;
-  --bulma-link-h: 82deg;
-  --bulma-link-s: 77%;
-  --bulma-link-l: 29%;
-}
-
 /* CSS ANTES DE USAR O SASS: */
 html, body {
   background-color: #f8f9fa;
@@ -69,19 +61,30 @@ strong {
   color: #ffffff;
 }
 
+#dropdown-content {
+  background-color: #007BC2;
+}
+#dropdown-content a {
+  background-color: #007BC2;
+  color: #ffffff;
+}
+#dropdown-content a:hover {
+  background-color: #005281;
+}
+
 .section {
   background-color: #ffffff;
   padding: 3rem 1.5rem;
 }
 
 .button.is-primary {
-  background-color: #3273dc;
+  background-color: #007BC2;
   color: white;
   border-radius: 5px;
 }
 
 .button.is-primary:hover {
-  background-color: #275bac;
+  background-color: #005281;
 }
 
 .visually-hidden {

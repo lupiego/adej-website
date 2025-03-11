@@ -1,0 +1,21 @@
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1519053450113-32bed8bbf61d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Replace with your image URL */
+  background-size: cover; /* Ensure the image covers the entire hero section */
+  background-position: center; /* Center the image */
+}
+
+.hero-body {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.title,
+.subtitle,
+.button {
+  color: white; /* Ensure text is readable on the background */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 30vh; /* Smaller height on mobile */
+  }
+}/*# sourceMappingURL=home.css.map */

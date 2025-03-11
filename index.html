@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ADEJ - Associação de Deficiêntes Físicos de Joinville</title>
+    <title>ADEJ - Associação dos Deficiêntes Físicos de Joinville</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
     <script src="scripts\nav.js"></script>
   </head>
   
   <body>
     
-    <nav class="navbar is-light has-shadow" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <!-- navbar items, navbar burger... -->
         <a class="navbar-item" href"index.html">
@@ -30,7 +31,7 @@
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-boxed is-hoverable">
             <a class="navbar-link" href="#">Serviços</a>
-            <div class="navbar-dropdown is-right">
+            <div class="navbar-dropdown is-right" id="dropdown-content">
               <a class="navbar-item" href="#">VITADEJ</a>
             </div>
           </div>
@@ -48,6 +49,21 @@
       </div>
     </nav>
   
+    <section class="hero is-medium">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-size-1">
+          Bem-vindo ao site da ADEJ
+        </h1>
+        <p class="subtitle is-size-4">
+          Conheça nossos serviços e um pouco da história da Associação dos Deficientes Físicos de Joinville.
+        </p>
+        <a href="#services" class="button is-primary is-medium">
+          Nossos serviços
+        </a>
+      </div>
+    </div>
+  </section>
 
     <footer class="footer has-background-light">
     <div class="container">
@@ -65,10 +81,9 @@
             <!-- Informação da ADEJ -->
             <div class="column is-4 has-text-left">
                 <p><strong>Associação dos Deficientes Físicos de Joinville</strong></p>
-                <p>Rua José Elias Giuliari, nº 95, Boa Vista, Joinville - SC.</p>
-                <p><strong>CEP:</strong> 89205-310.</p>
+                <p>Rua José Elias Giuliari, nº 95, Boa Vista, Joinville - SC</p>
+                <p><strong>CEP:</strong> 89205-310</p>
                 <p><strong>CNPJ:</strong> 83.797.936/0001-12</p>
-                <p><strong>Email:</strong> <a href="mailto:adej.entidade@gmail.com">adej.entidade@gmail.com</a></p>
             </div>
 
             <!-- Contato e Medias sociais -->

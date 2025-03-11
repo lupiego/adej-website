@@ -3,16 +3,8 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 $azul: #007BC2;
+$azul-hover: #005281;
 $amarelo: #f4f051;
-
-:root {
-    --bulma-primary-h: 202deg;
-    --bulma-primary-l: 38%;
-    --bulma-link-h: 82deg;
-    --bulma-link-s: 77%;
-    --bulma-link-l: 29%;
-}
-
 
 
 /* CSS ANTES DE USAR O SASS: */
@@ -78,19 +70,30 @@ strong {
     color:#ffffff;
 }
 
+#dropdown-content {
+    background-color: $azul;
+    a {
+        background-color: $azul;
+        color: #ffffff;
+    };
+    a:hover{
+        background-color: $azul-hover;
+    }
+}
+
 .section {
     background-color: #ffffff;
     padding: 3rem 1.5rem;
 }
 
 .button.is-primary {
-    background-color: #3273dc;
+    background-color: $azul;
     color: white;
     border-radius: 5px;
 }
 
 .button.is-primary:hover {
-    background-color: #275bac;
+    background-color: $azul-hover;
 }
 
 .visually-hidden {
