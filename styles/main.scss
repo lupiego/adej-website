@@ -90,6 +90,20 @@ strong {
     }
 }
 
+@media (max-width: 1023px) {
+    #comoajudar {
+        width: 100%;
+    };
+
+    .navbar-item {
+        text-align: center;
+    };
+
+    #servicos-menu {
+        padding-left: 40px;
+    };
+}
+
 .section {
     background-color: #ffffff;
     padding: 3rem 1.5rem;

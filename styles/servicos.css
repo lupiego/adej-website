@@ -117,4 +117,45 @@ strong {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.hero {
+  background-image: url("/img/adej-pessoas.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-body {
+  background-color: rgba(0, 13, 19, 0.8);
+}
+
+.section p a {
+  color: #007BC2;
+}
+.section p a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
+}
+
+.section .image img {
+  border-radius: 10px;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section .h2 {
+  margin-bottom: 8px;
+}
+.section ul {
+  list-style-type: disc;
+  padding-left: 1.4rem;
+  padding-top: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  #botao .button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=servicos.css.map */
