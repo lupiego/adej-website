@@ -91,7 +91,6 @@ strong {
 .button.is-primary {
   background-color: #007BC2;
   color: white;
-  border-radius: 5px;
 }
 
 .button.is-primary:hover {
