@@ -1,21 +1,201 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+:root {
+  --bulma-primary-h: 202deg;
+  --bulma-primary-l: 38%;
+  --bulma-link-h: 82deg;
+  --bulma-link-s: 77%;
+  --bulma-link-l: 29%;
+}
+
+html, body {
+  background-color: #f8f9fa;
+  color: #363636;
+  font-family: Public Sans, sans-serif;
+}
+
+strong {
+  color: #1b1b1b;
+}
+
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 2rem 1rem;
+  color: #363636;
+  text-align: center;
+}
+
+.footer a {
+  color: #007BC2;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
+}
+
+#copyright {
+  color: #bcbcbc;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand svg {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-burger {
+  color: #007BC2;
+}
+
+.navbar-item,
+.navbar-link {
+  color: #363636;
+}
+
+.navbar-item:hover {
+  color: #007BC2;
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
+}
+.navbar-item:hover a {
+  color: #007BC2;
+}
+
+#comoajudar:hover {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#dropdown-content {
+  background-color: #007BC2;
+}
+#dropdown-content a {
+  background-color: #007BC2;
+  color: #ffffff;
+}
+#dropdown-content a:hover {
+  background-color: #005281;
+}
+
+.section {
+  background-color: #ffffff;
+  padding: 3rem 1.5rem;
+}
+
+.button.is-primary {
+  background-color: #007BC2;
+  color: white;
+  border-radius: 5px;
+}
+
+.button.is-primary:hover {
+  background-color: #005281;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .hero {
-  background-image: url("https://images.unsplash.com/photo-1519053450113-32bed8bbf61d?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Replace with your image URL */
-  background-size: cover; /* Ensure the image covers the entire hero section */
-  background-position: center; /* Center the image */
+  background-image: url("/img/adej-pessoas.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-body {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background-color: rgba(0, 13, 19, 0.8);
 }
 
-.title,
-.subtitle,
-.button {
-  color: white; /* Ensure text is readable on the background */
+.section p a {
+  color: #007BC2;
+}
+.section p a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    height: 30vh; /* Smaller height on mobile */
+#historia .image img {
+  border-radius: 10px;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#cards-servicos img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-footer {
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  background-color: #007BC2;
+}
+
+.card-footer:hover {
+  background-color: #005281;
+}
+
+.card-footer-item {
+  color: #fff;
+}
+
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5; /* Cor de fundo do card */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 1.5rem; /* Espaçamento interno */
+}
+
+.testimonial-image {
+  margin-right: 1.5rem; /* Espaçamento entre a imagem e o texto */
+}
+
+.testimonial-image img {
+  border-radius: 0.25rem;
+  width: auto;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testimonial-content {
+  flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+}
+
+/* Responsividade: 1 coluna em mobile */
+@media (max-width: 576px) {
+  .testimonial-card {
+    flex-direction: column; /* Empilha imagem e texto em mobile */
+    text-align: center;
   }
+  .testimonial-image {
+    margin-top: 1.1rem; /* Espaçamento abaixo da imagem */
+  }
+}
+#ajuda .image img {
+  border-radius: 10px;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=home.css.map */
