@@ -50,6 +50,19 @@
   border-radius: 50%;
 }
 
+.botao-secundario {
+  background-color: #fff;
+  color: $azul;
+  border-color: $azul;
+  border-width: 2px;
+}
+
+.botao-secundario:hover {
+  color:$azul;
+  background-color: $azul-claro;
+  border-color: $azul;
+}
+
 @media (max-width: 768px) {
   .botao-fluido .button{
     width: 100%;
