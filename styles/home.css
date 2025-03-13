@@ -23,6 +23,7 @@ strong {
   padding: 2rem 1rem;
   color: #363636;
   text-align: center;
+  background: linear-gradient(0deg, rgb(248, 249, 250) 10%, rgb(240, 241, 242) 100%);
 }
 
 .footer a {
@@ -142,20 +143,18 @@ strong {
   text-decoration-color: #f4f051;
 }
 
-#historia .image img {
+.section .image img {
   border-radius: 10px;
-  background-color: aqua;
+  background-color: #e0f4ff;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#cards-servicos img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.card .image img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .card-footer {
@@ -171,13 +170,8 @@ strong {
   color: #fff;
 }
 
-#ajuda .image img {
-  border-radius: 10px;
-  background-color: aqua;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.box .media-left .testemunho-img img {
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
