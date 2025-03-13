@@ -175,7 +175,7 @@ strong {
 }
 
 @media (max-width: 768px) {
-  #botao .button {
+  .botao-fluido .button {
     width: 100%;
   }
 }/*# sourceMappingURL=home.css.map */

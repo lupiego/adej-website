@@ -171,4 +171,79 @@ strong {
   #botao .button {
     width: 100%;
   }
+}
+.formulario-contato .label {
+  color: #2E333D;
+  font-weight: bold;
+}
+
+.formulario-contato .input,
+.formulario-contato .textarea {
+  background-color: #fff;
+  border-color: #007BC2;
+  color: #2E333D;
+}
+
+.formulario-contato .input:focus,
+.formulario-contato .textarea:focus {
+  border-color: #007BC2;
+  box-shadow: 0 0 0 0.125em rgba(0, 123, 194, 0.25);
+}
+
+.formulario-contato .button.is-primary {
+  background-color: #007BC2;
+  border-color: #007BC2;
+  color: white;
+}
+
+.formulario-contato .button.is-primary:hover {
+  background-color: #005281;
+}
+
+.formulario-contato .field .help {
+  color: #2E333D !important;
+}
+
+.formulario-contato .input::-moz-placeholder, .formulario-contato .textarea::-moz-placeholder {
+  color: #2E333D !important;
+  opacity: 0.5 !important;
+  font-size: 0.8em !important;
+}
+
+.formulario-contato .input::placeholder,
+.formulario-contato .textarea::placeholder {
+  color: #2E333D !important;
+  opacity: 0.5 !important;
+  font-size: 0.8em !important;
+}
+
+@media (max-width: 768px) {
+  .botao-fluido .button {
+    width: 100%;
+  }
+}
+.box.mapa {
+  background-color: #e0f4ff;
+}
+
+.redes-sociais a {
+  color: #007BC2;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.redes-sociais a:hover {
+  color: #007BC2;
+  text-decoration: underline;
+  text-decoration-color: #f4f051;
+}
+
+.redes-sociais .icon {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 1245px) {
+  .fale-conosco {
+    padding-right: 3rem;
+  }
 }/*# sourceMappingURL=servicos.css.map */

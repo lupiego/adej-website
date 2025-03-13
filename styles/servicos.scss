@@ -49,3 +49,74 @@
     width: 100%;
   }
 }
+
+.formulario-contato .label {
+  color: #2E333D;
+  font-weight: bold;
+}
+
+.formulario-contato .input,
+.formulario-contato .textarea {
+  background-color: #fff;
+  border-color: $azul;
+  color: #2E333D;
+}
+
+.formulario-contato .input:focus,
+.formulario-contato .textarea:focus {
+  border-color: $azul;
+  box-shadow: 0 0 0 0.125em rgba($azul, 0.25);
+}
+
+.formulario-contato .button.is-primary {
+  background-color: $azul;
+  border-color: $azul;
+  color: white;
+}
+
+.formulario-contato .button.is-primary:hover {
+  background-color: $azul-hover;
+}
+
+.formulario-contato .field .help {
+  color: #2E333D !important;
+}
+
+.formulario-contato .input::placeholder,
+.formulario-contato .textarea::placeholder {
+  color: #2E333D !important;
+  opacity: 0.5 !important;
+  font-size: 0.8em !important;
+}
+
+@media (max-width: 768px) {
+  .botao-fluido .button{
+    width: 100%;
+  }
+}
+
+.box.mapa {
+  background-color: $azul-claro;
+}
+
+.redes-sociais a {
+  color: $azul;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.redes-sociais a:hover {
+  color: $azul;
+  text-decoration: underline;
+  text-decoration-color: $amarelo;
+}
+
+.redes-sociais .icon {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 1245px) {
+  .fale-conosco {
+    padding-right: 3rem;
+  }  
+}
