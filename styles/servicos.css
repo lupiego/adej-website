@@ -247,3 +247,7 @@ strong {
     padding-right: 3rem;
   }
 }/*# sourceMappingURL=servicos.css.map */
+
+.notification.is-warning {
+    background-color: #F4F051;
+}
