@@ -246,4 +246,7 @@ strong {
   .fale-conosco {
     padding-right: 3rem;
   }
+}
+.notification.is-warning {
+  background-color: #f4f051;
 }/*# sourceMappingURL=servicos.css.map */
